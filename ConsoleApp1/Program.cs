@@ -125,35 +125,35 @@ namespace ConsoleApp1
             //}
             #endregion
             #region Calculator
-            //Console.WriteLine("Enter first number: ");
-            //decimal number1 = decimal.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter second number: ");
-            //decimal number2 = decimal.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter operator: ");
-            //string operato = Console.ReadLine();
+            Console.WriteLine("Enter first number: ");
+            decimal number1 = decimal.Parse(Console.ReadLine());
+            Console.WriteLine("Enter second number: ");
+            decimal number2 = decimal.Parse(Console.ReadLine());
+            Console.WriteLine("Enter operator: ");
+            string operato = Console.ReadLine();
 
-            //switch (operato)
-            //{
-            //    case "+":
-            //        Console.WriteLine($"{number1}+{number2} = {number1 + number2}");
-            //        break;
-            //    case "-":
-            //        Console.WriteLine($"{number1}-{number2} = {number1 - number2}");
-            //        break;
-            //    case "*":
-            //        Console.WriteLine($"{number1}*{number2} = {number1 * number2}");
-            //        break;
-            //    case "/":
-            //        Console.WriteLine($"{number1}/{number2} = {number1 / number2}");
-            //        break;
-            //    case "%":
-            //        Console.WriteLine($"{number1}%{number2} = {number1 / number2 * 100}");
-            //        break;
+            switch (operato)
+            {
+                case "-":
+                    Console.WriteLine($"{number1}+{number2} = {number1 - number2}");
+                    break;
+                case "+":
+                    Console.WriteLine($"{number1}-{number2} = {number1 + number2}");
+                    break;
+                case "*":
+                    Console.WriteLine($"{number1}*{number2} = {number1 * number2}");
+                    break;
+                case "/":
+                    Console.WriteLine($"{number1}/{number2} = {number1 / number2}");
+                    break;
+                case "%":
+                    Console.WriteLine($"{number1}%{number2} = {number1 / number2 * 100}");
+                    break;
 
-            //    default:
-            //        Console.WriteLine("wrong operator");
-            //        break;
-            //}
+                default:
+                    Console.WriteLine("wrong operator");
+                    break;
+            }
             #endregion
             #region tv
             //Tv tv1 = new Tv
