@@ -14,7 +14,6 @@ namespace ConsoleApp1
                     number += i;
                 }
 
-
             }
             if (input == number)
             {
