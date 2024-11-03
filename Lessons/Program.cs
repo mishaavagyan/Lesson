@@ -543,6 +543,7 @@ namespace Lessons
 
             //Valid(inputName,inputGmail);
             #endregion
+            #region usersLogin
 
             var user1 = new User
             {
@@ -593,9 +594,8 @@ namespace Lessons
                 Console.WriteLine("Phone Number: " + result.User.PhoneNumber);
                 Console.WriteLine("Birthdate: " + result.User.BirthDate);
             }
-
-
-            #region 1
+            #endregion
+            #region Register Login
             //RegisterModel registerModel = new RegisterModel();
             //Console.WriteLine("Enter FullName");
             //registerModel.FullName = Console.ReadLine();
@@ -631,7 +631,7 @@ namespace Lessons
             //}
             #endregion
         }
-        #region Methods
+        #region Validate
         public static string ValidPassword(string password, out bool isPasswordValid)
         {
             isPasswordValid = true;
@@ -809,8 +809,7 @@ namespace Lessons
             return error;
         }
         #endregion
-
-
+        #region usersLogin
         public static LoginResponseModel UsersLogin(string userEmail, string userPassword, User user1, User user2, User user3)
         {
 
@@ -841,6 +840,9 @@ namespace Lessons
             }
             return response;
         }
+        #endregion
+        #region Register Login
+
         public static RegisterResponseModel Register(RegisterModel registerModel)
         {
             bool successRegister = true;
@@ -875,7 +877,7 @@ namespace Lessons
             }
             return loginResponseModel;
         }
-
+        #endregion
     }
 
 }
