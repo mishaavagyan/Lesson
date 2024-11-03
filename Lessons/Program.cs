@@ -1,9 +1,9 @@
-﻿using ConsoleApp1.Models;
-using ConsoleApp1.Servises;
+﻿using Lessons.Models;
+using Tools.Services;
 using System;
 using System.Linq;
 
-namespace ConsoleApp1
+namespace Lessons
 {
     class program
     {
